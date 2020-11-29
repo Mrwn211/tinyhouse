@@ -1,5 +1,3 @@
-import { type } from "os";
-
 interface Listing {
   id: string;
   title: string;
@@ -14,3 +12,11 @@ interface Listing {
 export type ListingData = {
   listings: Listing[];
 };
+
+export interface DeleteListingData {
+  deleteListing: Listing;
+}
+
+export interface DeleteListingVariable {
+  id: string;
+}
