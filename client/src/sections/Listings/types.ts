@@ -9,7 +9,7 @@ export interface Listing {
   numOfBaths: number;
   rating: number;
 }
-export type ListingData = {
+export type ListingsData = {
   listings: Listing[];
 };
 
